@@ -1,4 +1,10 @@
 
+using BCVP.Net8.Common;
+using BCVP.Net8.IService;
+using BCVP.Net8.Repository.Base;
+using BCVP.Net8.Service;
+using Microsoft.Extensions.DependencyInjection;
+
 namespace BCVP.Net8
 {
     public class Program
@@ -14,6 +20,11 @@ namespace BCVP.Net8
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddAutoMapper(typeof(AutoMapperConfig));
+            AutoMapperConfig.RegisterMappings();
+
+            builder.Services.AddScoped(typeof( IBaseRepository<>), typeof(BaseRepository<>));
+            builder.Services.AddScoped(typeof(IBaseService<,>), typeof(BaseService<,>));
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
