@@ -7,9 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BCVP.Net8.IService\BCVP.Net8.IService.csproj" />
     <ProjectReference Include="..\BCVP.Net8.Model\BCVP.Net8.Model.csproj" />
-    <ProjectReference Include="..\BCVP.Net8.Repository\BCVP.Net8.Repository.csproj" />
   </ItemGroup>
 
 </Project>

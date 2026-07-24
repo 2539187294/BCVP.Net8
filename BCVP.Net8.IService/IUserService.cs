@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BCVP.Net8.Service
+namespace BCVP.Net8.IService
 {
     public interface IUserService
     {

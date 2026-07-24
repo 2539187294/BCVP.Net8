@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCVP.Net8.Repository", "BCV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCVP.Net8.Service", "BCVP.Net8.Service\BCVP.Net8.Service.csproj", "{48DE16F8-29EE-40AA-B8D4-65351E7EAF40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCVP.Net8.IService", "BCVP.Net8.IService\BCVP.Net8.IService.csproj", "{CAB78FE1-BDC1-456B-8F84-1E2609C9C76C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{48DE16F8-29EE-40AA-B8D4-65351E7EAF40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48DE16F8-29EE-40AA-B8D4-65351E7EAF40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48DE16F8-29EE-40AA-B8D4-65351E7EAF40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAB78FE1-BDC1-456B-8F84-1E2609C9C76C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAB78FE1-BDC1-456B-8F84-1E2609C9C76C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAB78FE1-BDC1-456B-8F84-1E2609C9C76C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAB78FE1-BDC1-456B-8F84-1E2609C9C76C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
